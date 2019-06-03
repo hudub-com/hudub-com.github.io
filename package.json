@@ -13,6 +13,7 @@
     "gatsby-plugin-sharp": "^2.0.37",
     "gatsby-source-filesystem": "^2.0.35",
     "gatsby-transformer-sharp": "^2.1.19",
+    "less": "^3.9.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -20,7 +21,11 @@
     "semantic-ui-less": "^2.4.1"
   },
   "devDependencies": {
+    "gatsby-cli": "^2.6.4",
+    "gatsby-plugin-google-fonts": "^1.0.0",
     "gatsby-plugin-google-tagmanager": "^2.0.15",
+    "gatsby-plugin-less": "^2.0.13",
+    "gatsby-transformer-remark": "^2.3.12",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.1"
   },
