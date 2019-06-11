@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 
 import Usp from "../components/usp"
 import Contactform from "../components/contactform"
+import Advantages from "../components/advantages"
 
 const IndexPage = () => (
   <Layout>
@@ -22,6 +23,8 @@ const IndexPage = () => (
               </button>
           </div>
         </Link>
+        <div className="ui divider"/>
+        <Advantages />
       </div>
   </Layout>
 )
