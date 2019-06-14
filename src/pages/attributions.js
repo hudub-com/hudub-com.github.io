@@ -12,6 +12,7 @@ const IndexPage = () => (
     <p><a href="https://git-scm.com/">Git</a></p>
     <p><a href="https://semantic-ui.com/">Semantic UI</a></p>
     <p><a href="https://www.freepik.com/free-photos-vectors/technology">Technology vector created by fullvector - www.freepik.com</a></p>
+    <p><a href="https://www.freepik.com/free-photos-vectors/people">People vector created by pikisuperstar - www.freepik.com</a></p>
   </div>
 </Layout>
 )

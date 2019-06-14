@@ -2,10 +2,15 @@ import React from "react"
 
 export default () =>
 
+<>
+
+<h1>Technology</h1>
+<p>Hudub uses mainstream cutting edge technology to manage contracts</p>
 <div className="ui middle aligned stackable grid container">
+
   <div className="column">
   <div className="ui stackable centered cards">
-    <div className="card">
+    <div className="card" style={{flex: 1, flexBasis: 0}}>
       <div className="content">
         <i class="code massive icon"></i>
         <div className="ui divider"/>
@@ -25,12 +30,12 @@ export default () =>
       <a class="ui tag label">Code</a>
       </div>
     </div>
-    <div className="card">
+    <div className="card" style={{flex: 1, flexBasis: 0}}>
       <div className="content">
         <i class="play circle outline massive icon"></i>
         <div className="ui divider"/>
         <div className="header">
-          Contract execution
+          Contract automation
         </div>
         <div className="description">
           Most contract management tools focus only on contract drafting.
@@ -45,7 +50,7 @@ export default () =>
       </div>
     </div>
 
-    <div className="card">
+    <div className="card" style={{flex: 1, flexBasis: 0}}>
       <div className="content">
         <i class="search massive icon"></i>
         <div className="ui divider"/>
@@ -53,7 +58,9 @@ export default () =>
           Contract control
         </div>
         <div className="description">
-          Hudub keeps your contracts organized in a Git repo. Each time the contract changes,and synchronize all the contract documents to your hard drive in your computer a new version is generated and documents are rendered in pdf, markdown, calendar, etc...
+          Keep your contracts organized in a Git repo. Each time the contract changes,
+          a new version is generated and new documents are rendered in pdf, markdown, calendar, etc...
+          and synchronized to a hard drive in your computer.
           Git lets you apply version management to your contracts and compare different contract versions.
           You can easily achieve high level contract governance without additional effort.
           And all the documents are available in a local folder in your computer.
@@ -68,3 +75,4 @@ export default () =>
     </div>
   </div>
 </div>
+</>

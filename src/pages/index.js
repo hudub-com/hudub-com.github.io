@@ -7,8 +7,8 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Usp from "../components/usp"
-import Contactform from "../components/contactform"
 import Advantages from "../components/advantages"
+import Users from "../components/users"
 
 const IndexPage = () => (
   <Layout>
@@ -23,6 +23,8 @@ const IndexPage = () => (
               </button>
           </div>
         </Link>
+        <div className="ui divider"/>
+        <Users />
         <div className="ui divider"/>
         <Advantages />
       </div>
